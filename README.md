@@ -4,7 +4,7 @@ Web development project task as a part of The spark foundation(TSF)-GRIP Interns
 
 Hosting paltform -> 000Webhost.
 
-webiste link : https://basicsystemcreated.000webhostapp.com/
+Website link : https://basicsystemcreated.000webhostapp.com/
 
 Developed by: Arpan Kumar Kundu
 
