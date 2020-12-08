@@ -3,7 +3,6 @@
 
 <head>
     <title>Users-page</title>
-
     <link rel="icon" type="image/png" href="transfer1.png" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,7 +16,7 @@
         
         <style type="text/css">
  .list-group{
-  width: auto;
+  width:48%;
   height: auto;
  }
 
@@ -47,7 +46,7 @@
      ?>
             <a class="list-group-item list-group-item-action flex-column align-items-start"
                            href='display.php?id=<?php echo $result['id']; ?>'>
-                <div class="chat_img"> <img src="profile.jpg" alt="chat_img"> </div>
+                <div class="chat_img"> <img src="profile.jpg" width="50%" height="50%" alt="chat_img"> </div>
                 <?php echo $result['name'];}
     }
      else
@@ -160,13 +159,7 @@
                 </div>
                
             </form>
-          </div>
- <footer class="footer1" align="center"> <br>
-    <div  style="height: 60%"><b>
-      Designed by Arpan Kumar Kundu</b>
- 
-    </div>
-  </footer>
+     
 </body>
 
 </html>
